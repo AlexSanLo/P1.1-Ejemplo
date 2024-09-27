@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarID">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Hola</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="text-center">
+            <div class="form-group mt-4">
+                <small id="Uusario" class="form-text text-muted">Tu usuario nunca será compartido con terceros</small>
+                <br></br>
+                <label for="Usuario">Usuario: </label>
+                <input type="text"  id="Usuario" aria-describedby="UserHelp"
+                    placeholder="Introduzca su usuario">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Contraseña">Contraseña: </label>
+                <input type="password" id="Contraseña" placeholder="Contraseña">
+            </div>
+            <br>
+            <p>
+                <label for="fechanacimiento">
+                    <span>Fecha de nacimiento</span>
+                </label>
+                <input type="date" id="fechanacimiento" name="fechanacimiento">
+            </p>
+            <p>
+                <label for="provincianacimiento">
+                    <span>Provincia de nacimiento</span>
+
+                </label>
+                <select id="provincianacimiento" name="provincianacimiento">
+                    <option value="Albacete">Albacete</option>
+                    <option value="Ciudad Real">Ciudad Real</option>
+                    <option value="Cuenca">Cuenca</option>
+                    <option value="Guadalajara">Guadalajara</option>
+                    <option value="Toledo">Toledo</option>
+                </select>
+            </p>
+            <button type="Guardar" class="btn btn-primary">Guardar</button>
+        </form>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
